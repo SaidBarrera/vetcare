@@ -3,15 +3,11 @@ node_modules/
 .pnp
 .pnp.js
 
-# Testing
-coverage/
-
 # Production
 build/
 dist/
 
-# Misc
-.DS_Store
+# Environment
 .env
 .env.local
 .env.development.local
@@ -26,3 +22,14 @@ yarn-error.log*
 # Mobile
 mobile/ios/Pods/
 mobile/android/app/build/
+mobile/.gradle
+mobile/ios/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
